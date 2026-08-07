@@ -1,0 +1,283 @@
+
+
+This document provides an overview of the three fundamental resources in a computer system or cloud infrastructure: **Computation**, **Storage**, and **Network**.
+
+---
+
+## 1. Computation (Compute)
+
+Computation refers to the processing power used to execute programs and perform calculations. It is responsible for running applications, processing data, and performing complex tasks.
+
+### Key Components
+- CPU (Central Processing Unit)
+- GPU (Graphics Processing Unit)
+- RAM (Random Access Memory)
+
+### Examples
+- Running applications
+- Processing data
+- Training machine learning or AI models
+
+---
+
+## 2. Storage
+
+Storage refers to the resources used to save data for short-term or long-term use.
+
+### Types of Storage
+
+#### Primary Storage
+- RAM
+- Temporary (volatile)
+- Used while programs are running
+
+#### Secondary Storage
+- Hard Disk Drive (HDD)
+- Solid State Drive (SSD)
+- Cloud Storage
+- Permanent (non-volatile)
+
+### Examples
+- Saving documents
+- Storing databases
+- Keeping images, videos, and backups
+
+---
+
+## 3. Network
+
+A network enables communication and data transfer between computers and devices. It allows systems to share information over local networks or the internet.
+
+### Key Components
+- Routers
+- Switches
+- Network cables
+- Wi-Fi
+- Network Interface Cards (NICs)
+
+### Examples
+- Browsing websites
+- Sending emails
+- Accessing cloud services
+- File sharing between devices
+
+---
+
+## Summary
+
+| Resource | Purpose | Examples |
+|----------|---------|----------|
+| **Computation** | Processes data and executes instructions | Running applications, AI training |
+| **Storage** | Stores data and files | SSD, HDD, Cloud Storage |
+| **Network** | Transfers data between devices | Wi-Fi, Internet, LAN |
+
+---
+
+## Conclusion
+
+Computation, Storage, and Network are the three core pillars of modern computing. Every computer system, data center, and cloud platform depends on these resources to process information, store data, and enable communication between devices.
+```
+
+
+# 1. Primary Storage
+
+Primary storage is the memory that the CPU can access directly. It stores data and instructions that are currently being used by the computer.
+
+## Characteristics
+
+- Fast access speed
+- Volatile (most types lose data when power is turned off)
+- Limited storage capacity
+- Directly accessed by the CPU
+
+## Types
+
+### RAM (Random Access Memory)
+- Temporary memory
+- Stores data while programs are running
+- Data is erased when the computer is turned off
+
+### Cache Memory
+- Extremely fast memory
+- Located close to or inside the CPU
+- Stores frequently accessed data to improve performance
+
+### Registers
+- Smallest and fastest storage inside the CPU
+- Holds instructions and data currently being processed
+
+---
+
+# 2. Secondary Storage
+
+Secondary storage is used for permanent data storage. Unlike primary storage, it retains data even when the power is turned off.
+
+## Characteristics
+
+- Non-volatile
+- Larger storage capacity
+- Slower than primary storage
+- Used for long-term data storage
+
+## Types
+
+### Hard Disk Drive (HDD)
+- Magnetic storage device
+- High capacity
+- Lower cost
+- Slower than SSD
+
+### Solid State Drive (SSD)
+- Flash memory-based storage
+- Faster than HDD
+- More reliable
+- Lower power consumption
+
+### Optical Storage
+- CD
+- DVD
+- Blu-ray Disc
+
+### Flash Storage
+- USB Flash Drive
+- Memory Card
+- External SSD
+
+### Cloud Storage
+- Stores files on remote servers
+- Accessible through the internet
+- Examples include Google Drive, OneDrive, and Dropbox
+
+---
+
+# Primary vs Secondary Storage
+
+| Feature | Primary Storage | Secondary Storage |
+|---------|-----------------|-------------------|
+| Speed | Very Fast | Slower |
+| Volatility | Mostly Volatile | Non-Volatile |
+| Capacity | Smaller | Larger |
+| CPU Access | Direct | Indirect |
+| Cost | More Expensive | Less Expensive |
+| Examples | RAM, Cache, Registers | HDD, SSD, USB, Cloud Storage |
+
+---
+
+# 3. IP Addresses
+
+An IP (Internet Protocol) address is a unique identifier assigned to every device connected to a network.
+
+There are two main types:
+
+- Public IP Address
+- Private IP Address
+
+---
+
+# Public IP Address
+
+A public IP address is assigned by an Internet Service Provider (ISP) and is accessible over the internet.
+
+## Characteristics
+
+- Globally unique
+- Assigned by the ISP
+- Used for internet communication
+- Reachable from anywhere on the internet
+
+## Example
+
+```text
+203.0.113.25
+8.8.8.8
+```
+
+## Uses
+
+- Hosting websites
+- Remote server access
+- Internet communication
+
+---
+
+# Private IP Address
+
+A private IP address is used inside a local network (LAN). These addresses are **not routable on the public internet**.
+
+## Characteristics
+
+- Used within homes, offices, and organizations
+- Assigned by the router or DHCP server
+- Can be reused across different private networks
+- Requires Network Address Translation (NAT) to access the internet
+
+## Private IP Ranges
+
+| Class | Address Range |
+|--------|---------------|
+| Class A | 10.0.0.0 – 10.255.255.255 |
+| Class B | 172.16.0.0 – 172.31.255.255 |
+| Class C | 192.168.0.0 – 192.168.255.255 |
+
+## Example
+
+```text
+192.168.1.10
+10.0.0.5
+172.16.20.15
+```
+
+---
+
+# Public vs Private IP Address
+
+| Feature | Public IP | Private IP |
+|---------|-----------|------------|
+| Scope | Internet | Local Network |
+| Assigned By | ISP | Router/DHCP |
+| Unique Worldwide | Yes | No |
+| Internet Accessible | Yes | No (without NAT) |
+| Cost | Usually provided by ISP | Free within local network |
+| Example | 8.8.8.8 | 192.168.1.100 |
+
+---
+
+# Summary
+
+## Storage
+
+- **Primary Storage**
+  - RAM
+  - Cache
+  - Registers
+  - Fast and mostly volatile
+
+- **Secondary Storage**
+  - HDD
+  - SSD
+  - USB Drives
+  - Optical Disks
+  - Cloud Storage
+  - Permanent and non-volatile
+
+## IP Addresses
+
+- **Public IP**
+  - Assigned by ISP
+  - Accessible from the internet
+  - Globally unique
+
+- **Private IP**
+  - Used inside local networks
+  - Not directly accessible from the internet
+  - Uses NAT for internet communication
+
+---
+
+# Key Takeaways
+
+- **Primary storage** is fast, temporary, and directly accessed by the CPU.
+- **Secondary storage** is slower, permanent, and used for long-term data storage.
+- **Public IP addresses** identify devices on the internet.
+- **Private IP addresses** identify devices within a local network and are translated to public IPs using NAT.
+````
